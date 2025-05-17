@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text Formatter Tool</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Text Formatter Tool</h1>
+    <textarea id="inputText" rows="10" placeholder="Enter your text here..."></textarea>
+    
+    <div class="buttons">
+      <button onclick="toUpperCaseText()">UPPERCASE</button>
+      <button onclick="toLowerCaseText()">lowercase</button>
+      <button onclick="removeExtraSpaces()">Remove Spaces</button>
+      <button onclick="capitalizeSentences()">Capitalize</button>
+      <button onclick="copyText()">Copy Text</button>
+      <button onclick="clearText()">Clear</button>
+    </div>
+
+    <div class="stats" id="textStats"></div>
+  </div>
+
+  <footer class="footer">
+  Made with  &hearts; by Preeti
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
